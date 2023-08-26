@@ -3,6 +3,7 @@ import "./model.css"
 
 export const Model=({style, itemData})=>{
     const [name, setName] = useState()
+    const [desc, setDesc] = useState()
     
     return (
         <div style={{display: style}}>
